@@ -13,8 +13,8 @@ class Task(TaskBase):
     id: int
     created_at: datetime
 
-class TaskUpdate(BaseModel):
-    id: int
-    title: str
-    description: str
-    day: str
+# class TaskUpdate(BaseModel):
+#     id: int
+#     title: str
+#     description: str
+#     day: str
